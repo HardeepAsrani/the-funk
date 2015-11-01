@@ -5,7 +5,13 @@
  
 function thefunk_customize_register($wp_customize)
 {
-
+	
+	class TheFunk_Support extends WP_Customize_Control {
+		public function render_content() {
+			echo __('If you like this theme and if it helped you with your business then please consider supporting the development <a target="_blank" href="http://www.hardeepasrani.com/donate/">by donating some money</a>. This theme is 100% free and will always be. <a target="_blank" href="http://www.hardeepasrani.com/donate/">Any amount, even $1.00, is appreciated :)</a>','the-funk');
+		}
+	}
+	
     $wp_customize->add_panel( 'styling_panel', array(
         'priority'       => 40,
         'capability'     => 'edit_theme_options',
@@ -19,6 +25,11 @@ function thefunk_customize_register($wp_customize)
         'title'          => __('Layout', 'the-funk'),
         'description'    => __('This section allows you to customize the layout of The Funk theme.', 'the-funk'),
     ) );
+    
+    $wp_customize->add_section('donate_section', array(
+        'priority' => 5,
+        'title' => __('Do You Like This Theme?', 'the-funk')
+    ));
     
     $wp_customize->add_section('primary_styling', array(
         'priority' => 7,
@@ -64,6 +75,16 @@ function thefunk_customize_register($wp_customize)
     $wp_customize->get_section( 'header_image'  )->title = 'Header';
     $wp_customize->get_section( 'header_image'  )->priority = 10;
     $wp_customize->get_control( 'header_image'  )->priority = 100;
+ 
+ 
+
+	$wp_customize->add_setting( 'donate_section_main', array(
+		'sanitize_callback' => 'thefunk_sanitize_text'
+	));
+
+	$wp_customize->add_control( new TheFunk_Support( $wp_customize, 'donate_section_main', array(
+		'section' => 'donate_section',
+	)));
  
     $wp_customize->add_setting('thefunk_theme_options[header_color]', array(
         'default' => '#FFF',
@@ -372,9 +393,13 @@ function thefunk_customize_register($wp_customize)
         'type' => 'textarea'
     ));
 
-    function thefunk_sanitize_text( $textbox ) {
+    function thefunk_sanitize_textbox( $textbox ) {
         return wp_kses_post( force_balance_tags( $textbox ) );
     }
+	
+	function thefunk_sanitize_text( $input ) {
+		return $input;
+	}
 }
 add_action('customize_register', 'thefunk_customize_register');
 
