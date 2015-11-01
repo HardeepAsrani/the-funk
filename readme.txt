@@ -14,3 +14,10 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 # Support #
 Please visit http://wordpress.org/support/ if you have any questions about the theme.
+
+# Changelog #
+
+=2.2=
+- Removed theme options.
+- Added donation link to Customizer.
+- Added .screen-reader-text class to stylesheet.
