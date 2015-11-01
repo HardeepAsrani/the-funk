@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: The Funk\n"
-"POT-Creation-Date: 2014-11-18 05:29+0530\n"
-"PO-Revision-Date: 2014-11-18 05:30+0530\n"
+"POT-Creation-Date: 2015-11-02 03:22+0530\n"
+"PO-Revision-Date: 2015-11-02 03:22+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -13,328 +13,308 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__\n"
-"X-Poedit-SearchPath-0: E:/Server/wamp/www/wordpress/wp-content/themes/the-"
-"funk\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/404.php:7
+#: 404.php:7
 msgid "Page Not Found"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/404.php:8
+#: 404.php:8
 msgid ""
 "The page you were looking for doesn&rsquo;t exist. Sasquatch, on the other "
 "hand, just might."
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/404.php:9
+#: 404.php:9
 msgid "But hey, you can always use our search form:"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/archive.php:15
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/index.php:22
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/search.php:16
+#: archive.php:15 index.php:22 search.php:16
 #, php-format
 msgid "View all posts in %s"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/archive.php:30
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/index.php:41
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/search.php:31
+#: archive.php:30 index.php:41 search.php:31
 msgid "Read more"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/archive.php:49
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/index.php:60
+#: archive.php:49 index.php:60
 msgid "Not Found"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/archive.php:50
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/index.php:61
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/search.php:51
+#: archive.php:50 index.php:61 search.php:51
 msgid "Sorry, but you are looking for something that isn&rsquo;t here."
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:12
+#: assets/lib/customize.php:11
+#, php-format
+msgid ""
+"If you like this theme and if it helped you with your business then please "
+"consider supporting the development <a target=\"_blank\" href=\"http://www."
+"hardeepasrani.com/donate/\">by donating some money</a>. This theme is "
+"100% free and will always be. <a target=\"_blank\" href=\"http://www."
+"hardeepasrani.com/donate/\">Any amount, even $1.00, is appreciated :)</a>"
+msgstr ""
+
+#: assets/lib/customize.php:18
 msgid "Styling"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:13
+#: assets/lib/customize.php:19
 msgid "This section allows you to customize colors and feel of The Funk theme."
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:19
+#: assets/lib/customize.php:25
 msgid "Layout"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:20
+#: assets/lib/customize.php:26
 msgid "This section allows you to customize the layout of The Funk theme."
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:25
+#: assets/lib/customize.php:31
+msgid "Do You Like This Theme?"
+msgstr ""
+
+#: assets/lib/customize.php:36
 msgid "Primary Colors"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:31
+#: assets/lib/customize.php:42
 msgid "Navigation Menu - Header"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:37
+#: assets/lib/customize.php:48
 msgid "Navigation Menu - Primary"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:43
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:61
+#: assets/lib/customize.php:54 assets/lib/customize.php:66
 msgid "Footer"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:49
-msgid "Custom CSS"
-msgstr ""
-
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:55
+#: assets/lib/customize.php:60
 msgid "Sidebars"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:82
+#: assets/lib/customize.php:96
 msgid "Header Color"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:96
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:264
+#: assets/lib/customize.php:109 assets/lib/customize.php:265
 msgid "Title Color"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:110
+#: assets/lib/customize.php:122
 msgid "Title Color - Hover"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:124
+#: assets/lib/customize.php:135
 msgid "Description Color"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:138
+#: assets/lib/customize.php:148
 msgid "Theme Color"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:152
+#: assets/lib/customize.php:161
 msgid "Hover Color"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:166
+#: assets/lib/customize.php:174
 msgid "Post Meta Color"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:180
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:208
+#: assets/lib/customize.php:187 assets/lib/customize.php:213
 msgid "Menu Color"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:194
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:222
+#: assets/lib/customize.php:200 assets/lib/customize.php:226
 msgid "Menu Color - Hover"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:236
+#: assets/lib/customize.php:239
 msgid "Menu Color - Active"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:250
+#: assets/lib/customize.php:252
 msgid "Background Color"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:278
+#: assets/lib/customize.php:278
 msgid "Text Color"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:292
+#: assets/lib/customize.php:291
 msgid "Link Color"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:306
+#: assets/lib/customize.php:304
 msgid "Link Color - Hover"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:319
+#: assets/lib/customize.php:317
 msgid "Homepage"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:323
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:340
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:357
+#: assets/lib/customize.php:321 assets/lib/customize.php:338
+#: assets/lib/customize.php:355
 msgid "Left Sidebar"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:324
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:341
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:358
+#: assets/lib/customize.php:322 assets/lib/customize.php:339
+#: assets/lib/customize.php:356
 msgid "Right Sidebar"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:325
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:342
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:359
+#: assets/lib/customize.php:323 assets/lib/customize.php:340
+#: assets/lib/customize.php:357
 msgid "Full Width"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:336
+#: assets/lib/customize.php:334
 msgid "Posts"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:353
+#: assets/lib/customize.php:351
 msgid "Pages"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:370
+#: assets/lib/customize.php:368
 msgid "Footer Widgets"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:374
+#: assets/lib/customize.php:372
 msgid "Yes"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:375
+#: assets/lib/customize.php:373
 msgid "No"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:393
+#: assets/lib/customize.php:391
 msgid "Footer Credits"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/assets/lib/customize.php:404
-msgid "Put your CSS code here without <style> tags:"
-msgstr ""
-
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/comments.php:3
+#: comments.php:3
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/comments.php:10
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/single.php:10
+#: comments.php:10 single.php:10
 msgid "Comments"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/comments.php:15
+#: comments.php:15
 msgid "&larr; Previous"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/comments.php:16
+#: comments.php:16
 #, php-format
 msgid "Page %1$s of %2$s"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/comments.php:17
+#: comments.php:17
 msgid "Next &rarr;"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/comments.php:31
+#: comments.php:31
 msgid "Pings"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/comments.php:42
+#: comments.php:42
 #, php-format
 msgid ""
 "Comments are closed, but <a href=\"%s\" title=\"Trackback URL for this post"
 "\">trackbacks</a> and pingbacks are open."
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/comments.php:49
+#: comments.php:49
 msgid "Comments are closed."
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:97
-#, php-format
-msgid "Page %s"
-msgstr ""
-
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:108
+#: functions.php:96
 msgid "Header Navigation"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:109
+#: functions.php:97
 msgid "Primary Navigation"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:117
+#: functions.php:105
 msgid "Sidebar"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:123
+#: functions.php:111
 msgid "The widgets which will appear on the main sidebar."
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:126
+#: functions.php:114
 msgid "Footer One"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:132
+#: functions.php:120
 msgid "The widgets which will appear in the first column of the footer."
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:135
+#: functions.php:123
 msgid "Footer Two"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:141
+#: functions.php:129
 msgid "The widgets which will appear in the second column of the footer."
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:144
+#: functions.php:132
 msgid "Footer Three"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:150
+#: functions.php:138
 msgid "The widgets which will appear in the third column of the footer."
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:180
+#: functions.php:168
 msgid "Home"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:212
+#: functions.php:200
 msgid "About"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:222
+#: functions.php:210
 msgid "See all the posts by "
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:222
+#: functions.php:210
 msgid "at this link"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:477
+#: functions.php:457
 msgid "Copyright"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:477
+#: functions.php:457
 msgid "The Funk"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/functions.php:479
+#: functions.php:459
 msgid "Proudly powered by WordPress"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/index.php:12
+#: index.php:12
 msgid "STICKY"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/page-full.php:16
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/page.php:14
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/single.php:17
+#: page-full.php:16 page.php:14 single.php:17
 msgid "Read the rest of this entry &raquo;"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/page-full.php:18
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/page.php:16
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/single.php:21
+#: page-full.php:18 page.php:16 single.php:21
 msgid "Pages:"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/search.php:7
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/search.php:50
+#: search.php:7 search.php:50
 msgid "Search results for:"
 msgstr ""
 
-#: E:/Server/wamp/www/wordpress/wp-content/themes/the-funk/single.php:10
+#: single.php:10
 msgid "by"
 msgstr ""
