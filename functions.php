@@ -5,8 +5,7 @@
  * Happy Blogging
 */
 
-include (TEMPLATEPATH . '/assets/lib/customize.php');
-include (TEMPLATEPATH . '/assets/lib/theme-options.php');
+require get_template_directory() . 'assets/lib/customize.php';
 
 function thefunk_setup_theme_function()
 {
