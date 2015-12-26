@@ -21,3 +21,6 @@ Please visit http://wordpress.org/support/ if you have any questions about the t
 - Removed theme options.
 - Added donation link to Customizer.
 - Added .screen-reader-text class to stylesheet.
+
+=2.3=
+- Removed the title from header.
