@@ -64,10 +64,6 @@ function thefunk_scripts()
 {
 	wp_enqueue_style('thefunk_stylesheet', get_stylesheet_uri());
 	if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
-
-	if (is_page('The Funk')) { // check post_title, post_name or ID here
-		wp_enqueue_style( 'thefunk_theme-options', get_template_directory_uri() . '/assets/lib/theme-options.css' );
-	}
 }
 
 add_action('wp_enqueue_scripts', 'thefunk_scripts');
